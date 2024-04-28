@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paradise - Luxury Accommodations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Amenities</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Hotel Paradise</h1>
+                <p>Experience luxury accommodations in the heart of the city</p>
+                <button class="btn">Book Now</button>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2>Our Amenities</h2>
+                <ul>
+                    <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                    <li><i class="fas fa-pool"></i> Outdoor Pool</li>
+                    <li><i class="fas fa-fitness"></i> Fitness Center</li>
+                    <li><i class="fas fa-restaurant"></i> On-Site Restaurant</li>
+                </ul>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="container">
+                <h2>Our Rooms</h2>
+                <div class="room-grid">
+                    <div class="room">
+                        <img src="room1.jpg" alt="Room 1">
+                        <h3>Deluxe King</h3>
+                        <p>Starting at $150/night</p>
+                    </div>
+                    <div class="room">
+                        <img src="room2.jpg" alt="Room 2">
+                        <h3>Executive Suite</h3>
+                        <p>Starting at $250/night</p>
+                    </div>
+                    <div class="room">
+                        <img src="room3.jpg" alt="Room 3">
+                        <h3>Luxury Suite</h3>
+                        <p>Starting at $350/night</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Our Guests Say</h2>
+                <blockquote>
+                    <p>"Hotel Paradise exceeded my expectations in every way. The staff was friendly and accommodating, and the room was luxurious and comfortable."</p>
+                    <cite>- John D.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"I was blown away by the amenities at Hotel Paradise. The outdoor pool and fitness center were top-notch."</p>
+                    <cite>- Sarah K.</cite>
+                </blockquote>
+            </div>
+        </section>
+        <section class="call-to-action">
+            <div class="container">
+                <h2>Book Your Stay Today!</h2>
+                <button class="btn">Book Now</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hotel Paradise. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
